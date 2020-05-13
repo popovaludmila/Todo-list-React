@@ -1,0 +1,22 @@
+.item-status-filter {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    border: 1px solid silver;
+}
+
+.btn-outline-secondary:hover {
+    background-color: silver;
+    color: white;
+}
+
+.button-info {
+    background-color: rgb(26, 141, 156);
+    color: white;
+}
+
+.btn-info:active{
+    background-color: rgb(15, 104, 116);
+}

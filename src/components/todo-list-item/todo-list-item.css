@@ -1,0 +1,63 @@
+.todo-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo-list-item-label {
+    font-size: 20px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+ .todo-list-item.done .todo-list-item-label {
+    text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.button-success {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid green;
+}
+
+.button-success:hover,
+.button-success:active {
+    background-color: green;
+}
+
+.button-outline-danger {
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.button-outline-danger:hover,
+.button-outline-danger:active {
+    background-color: red
+}
+
+.button-success i {
+    color: green;
+}
+
+.button-success:hover i,
+.button-success:active i {
+    color: white;
+} 
+
+.button-outline-danger i {
+    color: red;
+}
+
+.button-success:hover i,
+.button-success:active i,
+.button-outline-danger:hover i,
+.button-outline-danger:active i {
+    color: white;
+}
